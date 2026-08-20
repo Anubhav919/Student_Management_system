@@ -8,8 +8,8 @@ public class EmailOTPService {
     // 1. Turn on 2-Step Verification on this Gmail account (myaccount.google.com/security)
     // 2. Go to myaccount.google.com/apppasswords and generate an App Password
     // 3. Paste that 16-character app password below (NOT your normal Gmail password)
-    private static final String SENDER_EMAIL = "sgs.anubhav.15jan.10@gmail.com";
-    private static final String SENDER_APP_PASSWORD = "jutb yqmj prgn mdta";
+    private static final String SENDER_EMAIL = "your-email@gmail.com";
+    private static final String SENDER_APP_PASSWORD = "xxxx xxxx xxxx xxxx";
 
     /**
      * Sends a 6-digit OTP to the given email address.
